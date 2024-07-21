@@ -2,6 +2,7 @@ package tv_moe;
 
 import java.util.Scanner;
 
+
 public class Application {
 
 	public static void main(String[] args) {
@@ -52,44 +53,44 @@ public class Application {
 		}
 		
 		
-		
-		// 1 - Dev, 2 - Test, 3 - BA
-		System.out.println("Nhap so hs: ");
-		int inputphongban = s.nextInt();
-		int sophongban;
-		switch (inputphongban) {
-		case 1: {
-			sophongban = 1;
-		}
-		case 2: {
-			sophongban = 2;
-		}
-		case 3: {
-			sophongban = 3;
-		}
-		default:
-			System.out.println("");
-			break;
-		}
-		System.out.println("Nhap so luong: ");
-		int soluong = s.nextInt();
-		NhanVien[] dsNhanvien = new NhanVien[a];
-		for (int i = 0; i < dsHocsinh.length; i++) 
-		{
-			Scanner scanner = new Scanner(System.in);	
-			dsNhanvien[i] = new NhanVien();
-			dsNhanvien[i].setPhongban(sophongban);
-			System.out.println("Nhap tuoi hs so "+i+1+": ");
-			dsNhanvien[i].setHoten(scanner.nextLine());
-			
-			System.out.println("Nhap tuoi hs so "+i+1+": ");
-			dsNhanvien[i].maNv(scanner.nextInt());
-			
-			System.out.println("Nhap tuoi hs so "+i+1+": ");
-			dsNhanvien[i].setSdt(scanner.nextLine());
-			
-			dsNhanvien[i].getInfo();
-		}
+//		
+//		// 1 - Dev, 2 - Test, 3 - BA
+//		System.out.println("Nhap so hs: ");
+//		int inputphongban = s.nextInt();
+//		int sophongban;
+//		switch (inputphongban) {
+//		case 1: {
+//			sophongban = 1;
+//		}
+//		case 2: {
+//			sophongban = 2;
+//		}
+//		case 3: {
+//			sophongban = 3;
+//		}
+//		default:
+//			System.out.println("");
+//			break;
+//		}
+//		System.out.println("Nhap so luong: ");
+//		int soluong = s.nextInt();
+//		NhanVien[] dsNhanvien = new NhanVien[a];
+//		for (int i = 0; i < dsHocsinh.length; i++) 
+//		{
+//			Scanner scanner = new Scanner(System.in);	
+//			dsNhanvien[i] = new NhanVien();
+//			dsNhanvien[i].setPhongban(sophongban);
+//			System.out.println("Nhap tuoi hs so "+i+1+": ");
+//			dsNhanvien[i].setHoten(scanner.nextLine());
+//			
+//			System.out.println("Nhap tuoi hs so "+i+1+": ");
+//			dsNhanvien[i].maNv(scanner.nextInt());
+//			
+//			System.out.println("Nhap tuoi hs so "+i+1+": ");
+//			dsNhanvien[i].setSdt(scanner.nextLine());
+//			
+//			dsNhanvien[i].getInfo();
+//		}
 		
 		
 		// tạo 2 class
