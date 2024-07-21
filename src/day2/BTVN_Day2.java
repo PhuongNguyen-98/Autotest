@@ -26,7 +26,7 @@ public class BTVN_Day2 {
 		}
 		
 		System.out.println("Max: " + max);
-
+		System.out.println("Max again: " + max);
 	}
 	
 }
