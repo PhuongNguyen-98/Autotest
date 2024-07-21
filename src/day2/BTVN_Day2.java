@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class BTVN_Day2 {
 	public static double st1,st2,st3;
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
@@ -24,7 +23,6 @@ public class BTVN_Day2 {
 		if(st2 < st3) {
 			max = st3;
 		}
-		
 		System.out.println("Max: " + max);
 		System.out.println("Max again: " + max);
 	}
